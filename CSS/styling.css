@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(#383838, #383838, darkgrey);
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: whitesmoke;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: darkgray;
+}
+
+.main {
+    margin-left: 250px; /* Same as the width of the sidenav */
+    /*font-size: 28px; Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.header {
+    margin-left: 250px; /* Same as the width of the sidenav */
+    height: 80px;
+    padding: 20px;
+    background-color: #383838;
+    color: whitesmoke;
+}
+
+
